@@ -1,0 +1,32 @@
+{
+  "Labels": [
+    {
+      "Confidence": 93.81600952148438, 
+      "Name": "Coffee Cup"
+    }, 
+    {
+      "Confidence": 93.81600952148438, 
+      "Name": "Cup"
+    }, 
+    {
+      "Confidence": 54.39379119873047, 
+      "Name": "Glasses"
+    }, 
+    {
+      "Confidence": 54.39379119873047, 
+      "Name": "Goggles"
+    }
+  ], 
+  "ResponseMetadata": {
+    "RetryAttempts": 0, 
+    "HTTPStatusCode": 200, 
+    "RequestId": "163a4402-b27e-11e7-9536-29fac8401017", 
+    "HTTPHeaders": {
+      "date": "Mon, 16 Oct 2017 14:27:07 GMT", 
+      "x-amzn-requestid": "163a4402-b27e-11e7-9536-29fac8401017", 
+      "content-length": "211", 
+      "content-type": "application/x-amz-json-1.1", 
+      "connection": "keep-alive"
+    }
+  }
+}

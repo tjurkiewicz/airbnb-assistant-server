@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message RecognitionRequest {
+    bytes payload = 1;
+}
+
+message RecognitionLabel {
+    string name = 1;
+    float confidence = 2;
+}
+
+message RecognitionResponse {
+    repeated RecognitionLabel recognition_labels = 1;
+}
