@@ -12,3 +12,7 @@ message RecognitionLabel {
 message RecognitionResponse {
     repeated RecognitionLabel recognition_labels = 1;
 }
+
+message CreateUserRequest {
+    string name = 1;
+}
